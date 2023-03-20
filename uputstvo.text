@@ -1,0 +1,9 @@
+npm init -y
+
+npm install node-sass
+
+u package.json umjesto test ide "sass":"node-sass -w scss/ -o css/--recursive"
+
+npm run sass
+
+npm install sass-lint --save-dev
